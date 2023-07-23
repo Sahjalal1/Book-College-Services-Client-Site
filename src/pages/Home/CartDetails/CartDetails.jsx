@@ -11,7 +11,7 @@ const CartDetails = () => {
     // const [admission_date  ] = datas;
 
     useEffect(() => {
-        fetch("https://book-college-services-server-site.vercel.app/college").then(res => res.json()).then(data => {
+        fetch("https://book-college-services-server-site-mdsahjalalrahim-gmailcom.vercel.app/college").then(res => res.json()).then(data => {
             const singleData = data.find(dat => id == dat._id)
             console.log(singleData)
             setData(singleData)
