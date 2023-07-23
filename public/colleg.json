@@ -1,0 +1,56 @@
+[
+    {
+      "_id": 1,
+      "collegeName": "ABC University",
+      "collegeImage": "path_to_image1.jpg",
+      "admissionDates": "Sep 1 - Dec 15",
+      "events": ["Commencement: May 15", "Open House: Aug 25", "Career Fair: Nov 10-12"],
+      "researchHistory": ["2018: Published 150+ papers", "2021: Received 5 research grants"],
+      "sports": ["Football Match: Oct 2", "Basketball Game: Nov 8", "Soccer Tournament: Dec 3-5"]
+    },
+    {
+      "_id": 2,
+      "collegeName": "XYZ College",
+      "collegeImage": "path_to_image2.jpg",
+      "admissionDates": "Aug 15 - Nov 30",
+      "events": ["Orientation Day: Aug 28", "Science Fair: Oct 20-22", "Literature Symposium: Feb 15"],
+      "researchHistory": ["2020: Awarded \"Best Research College\"", "2022: Published 200+ papers"],
+      "sports": ["Baseball Game: Sep 10", "Volleyball Match: Nov 5", "Track & Field Meet: Apr 6-8"]
+    },
+    {
+      "_id": 3,
+      "collegeName": "EFG Institute",
+      "collegeImage": "path_to_image3.jpg",
+      "admissionDates":  "Oct 1 - Dec 31", 
+      "events": ["Workshop Series: Oct 5-8", "Business Symposium: Mar 18", "Career Development Day: Apr 29"],
+      "researchHistory": ["2019: Established Research Center", "2023: Collaborated with NASA"],
+      "sports": ["Swimming Competition: Nov 15", "Tennis Tournament: Feb 20-22", "Rugby Match: Apr 15"]
+    },
+    {
+      "_id": 4,
+      "collegeName": "XYZ College",
+      "collegeImage": "path_to_image2.jpg",
+      "admissionDates": "Aug 15 - Nov 30",
+      "events": ["Orientation Day: Aug 28", "Science Fair: Oct 20-22", "Literature Symposium: Feb 15"],
+      "researchHistory": ["2020: Awarded \"Best Research College\"", "2022: Published 200+ papers"],
+      "sports": ["Baseball Game: Sep 10", "Volleyball Match: Nov 5", "Track & Field Meet: Apr 6-8"]
+    },
+    {
+      "_id": 5,
+      "collegeName": "ABC University",
+      "collegeImage": "path_to_image1.jpg",
+      "admissionDates": "Sep 1 - Dec 15",
+      "events": ["Commencement: May 15", "Open House: Aug 25", "Career Fair: Nov 10-12"],
+      "researchHistory": ["2018: Published 150+ papers", "2021: Received 5 research grants"],
+      "sports": ["Football Match: Oct 2", "Basketball Game: Nov 8", "Soccer Tournament: Dec 3-5"]
+    },
+    {
+      "_id": 6,
+      "collegeName": "EFG Institute",
+      "collegeImage": "path_to_image3.jpg",
+      "admissionDates":  "Oct 1 - Dec 31", 
+      "events": ["Workshop Series: Oct 5-8", "Business Symposium: Mar 18", "Career Development Day: Apr 29"],
+      "researchHistory": ["2019: Established Research Center", "2023: Collaborated with NASA"],
+      "sports": ["Swimming Competition: Nov 15", "Tennis Tournament: Feb 20-22", "Rugby Match: Apr 15"]
+    }
+  ]

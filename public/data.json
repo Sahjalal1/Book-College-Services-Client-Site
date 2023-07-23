@@ -1,0 +1,335 @@
+ [
+      {
+        "_id": 1,
+        "college_name": "Example University",
+        "college_image": "https://example.com/images/college1.jpg",
+        "college_rating": 4.5,
+        "admission_date": "2023-09-01",
+        "research_count": 120,
+        "researchHistory": ["2018: Published 150+ papers", "2021: Received 5 research grants"],
+        
+        "event": [
+          {
+            "name": "Cultural Fest",
+            "date": "2023-09-20",
+            "location": "Campus Grounds",
+            "description": "A vibrant cultural event showcasing diverse talents."
+          },
+          {
+            "name": "Tech Expo",
+            "date": "2023-10-15",
+            "location": "Engineering Block",
+            "description": "An exhibition of innovative projects by tech enthusiasts."
+          }
+        ],
+        "research_works": [
+          {
+            "title": "Climate Change Mitigation Strategies",
+            "authors": ["Sarah Johnson", "Robert Lee"],
+            "publication_date": "2023-06-10",
+            "abstract": "This research presents effective strategies to combat climate change."
+          },
+          {
+            "title": "Artificial Intelligence Ethics",
+            "authors": ["David Adams", "Emma Wilson"],
+            "publication_date": "2023-08-25",
+            "abstract": "An ethical analysis of AI's impact on society and decision-making."
+          }
+        ],
+        "sports_categories": [
+          {
+            "name": "Cricket",
+            "team_count": 2,
+            "description": "Cricket teams for both men and women."
+          },
+          {
+            "name": "Volleyball",
+            "team_count": 1,
+            "description": "Inter-college volleyball competitions held annually."
+          },
+          {
+            "name": "Swimming",
+            "team_count": 1,
+            "description": "College swimming team actively participating in district competitions."
+          }
+        ]
+  
+      },
+      {
+        "_id": 2,
+        "college_name": "Another College",
+        "college_image": "https://example.com/images/college2.jpg",
+        "college_rating": 4.2,
+        "admission_date": "2023-09-15",
+        "research_count": 90,
+        "researchHistory": ["2020: Awarded \"Best Research College\"", "2022: Published 200+ papers"],
+        
+        "event": [
+          {
+            "name": "Cultural Carnival",
+            "date": "2023-09-28",
+            "location": "Institute Auditorium",
+            "description": "A vibrant carnival celebrating the cultural diversity of the institute."
+          },
+          {
+            "name": "Tech Symposium",
+            "date": "2023-10-20",
+            "location": "Conference Hall",
+            "description": "A platform for tech enthusiasts to present their research and projects."
+          }
+        ],
+        "research_works": [
+          {
+            "title": "Future of Space Exploration",
+            "authors": ["Alex Turner", "Sophia Carter"],
+            "publication_date": "2023-07-20",
+            "abstract": "This research delves into the potential future of space exploration."
+          },
+          {
+            "title": "The Role of Robotics in Industry 4.0",
+            "authors": ["Ryan Smith", "Olivia Johnson"],
+            "publication_date": "2023-09-05",
+            "abstract": "An analysis of robotics' impact on the fourth industrial revolution."
+          }
+        ],
+        "sports_categories": [
+          {
+            "name": "Badminton",
+            "team_count": 1,
+            "description": "Active badminton club with regular intra-college tournaments."
+          },
+          {
+            "name": "Table Tennis",
+            "team_count": 1,
+            "description": "Table tennis enthusiasts can participate in college championships."
+          },
+          {
+            "name": "Chess",
+            "team_count": 1,
+            "description": "Chess enthusiasts can compete in various inter-college events."
+          }
+        ]
+      },
+      {
+        "_id": 3,
+        "college_name": "Top-notch Institute",
+        "college_image": "https://example.com/images/college3.jpg",
+        "college_rating": 4.9,
+        "admission_date": "2023-08-25",
+        "research_count": 200,
+        "researchHistory": ["2019: Established Research Center", "2023: Collaborated with NASA"],
+        
+        "even": [
+          {
+            "name": "Annual Sports Meet",
+            "date": "2023-10-10",
+            "location": "University Grounds",
+            "description": "An exciting sports meet featuring various athletic events."
+          },
+          {
+            "name": "Literary Fest",
+            "date": "2023-11-05",
+            "location": "Central Library",
+            "description": "A celebration of literature with book readings and author interactions."
+          }
+        ],
+        "research_works": [
+          {
+            "title": "The Impact of Social Media on Youth",
+            "authors": ["Amy Brown", "Daniel White"],
+            "publication_date": "2023-07-15",
+            "abstract": "This research examines how social media affects youth behavior and psychology."
+          },
+          {
+            "title": "Advances in Nanotechnology",
+            "authors": ["Ethan Anderson", "Isabella Moore"],
+            "publication_date": "2023-09-18",
+            "abstract": "An exploration of the latest developments in nanotechnology."
+          }
+        ],
+        "sports_categories": [
+          {
+            "name": "Tennis",
+            "team_count": 1,
+            "description": "Tennis enthusiasts can participate in college-level tournaments."
+          },
+          {
+            "name": "Gymnastics",
+            "team_count": 1,
+            "description": "College gymnastics team regularly competing in regional championships."
+          },
+          {
+            "name": "Hockey",
+            "team_count": 2,
+            "description": "Hockey teams for both men and women."
+          }
+        ]
+      },
+      {
+        "_id": 4,
+        "college_name": "City University",
+        "college_image": "https://example.com/images/college4.jpg",
+        "college_rating": 3.8,
+        "admission_date": "2023-09-10",
+        "research_count": 80,
+        "researchHistory": ["2018: Published 150+ papers", "2021: Received 5 research grants"],
+        
+        "event": [
+          {
+            "name": "Cultural Extravaganza",
+            "date": "2023-11-15",
+            "location": "College Auditorium",
+            "description": "A showcase of cultural performances and artistic talents."
+          },
+          {
+            "name": "Startup Summit",
+            "date": "2023-12-10",
+            "location": "Innovation Center",
+            "description": "An event to encourage and support student startups and entrepreneurship."
+          }
+        ],
+        "research_works": [
+          {
+            "title": "Biomedical Engineering Innovations",
+            "authors": ["Daniel Clark", "Olivia Turner"],
+            "publication_date": "2023-08-10",
+            "abstract": "This research highlights recent breakthroughs in biomedical engineering."
+          },
+          {
+            "title": "Ethical Implications of Genetic Engineering",
+            "authors": ["Sophia Adams", "Michael Johnson"],
+            "publication_date": "2023-10-12",
+            "abstract": "An ethical analysis of the applications of genetic engineering in humans."
+          }
+        ],
+        "sports_categories": [
+          {
+            "name": "Badminton",
+            "team_count": 1,
+            "description": "Badminton enthusiasts can participate in college championships."
+          },
+          {
+            "name": "Football",
+            "team_count": 2,
+            "description": "College football teams competing in regional tournaments."
+          },
+          {
+            "name": "Swimming",
+            "team_count": 1,
+            "description": "Swimming club with regular training sessions and competitions."
+          }
+        ]
+      },
+      {
+        "_id": 5,
+        "college_name": "Institute of Arts",
+        "college_image": "https://example.com/images/college5.jpg",
+        "college_rating": 4.0,
+        "admission_date": "2023-08-28",
+        "research_count": 50,
+        "researchHistory": ["2020: Awarded \"Best Research College\"", "2022: Published 200+ papers"],
+        
+        "event": [
+          {
+            "name": "Cultural Extravaganza",
+            "date": "2023-11-15",
+            "location": "College Auditorium",
+            "description": "A showcase of cultural performances and artistic talents."
+          },
+          {
+            "name": "Startup Summit",
+            "date": "2023-12-10",
+            "location": "Innovation Center",
+            "description": "An event to encourage and support student startups and entrepreneurship."
+          }
+        ],
+        "research_works": [
+          {
+            "title": "Biomedical Engineering Innovations",
+            "authors": ["Daniel Clark", "Olivia Turner"],
+            "publication_date": "2023-08-10",
+            "abstract": "This research highlights recent breakthroughs in biomedical engineering."
+          },
+          {
+            "title": "Ethical Implications of Genetic Engineering",
+            "authors": ["Sophia Adams", "Michael Johnson"],
+            "publication_date": "2023-10-12",
+            "abstract": "An ethical analysis of the applications of genetic engineering in humans."
+          }
+        ],
+        "sports_categories": [
+          {
+            "name": "Badminton",
+            "team_count": 1,
+            "description": "Badminton enthusiasts can participate in college championships."
+          },
+          {
+            "name": "Football",
+            "team_count": 2,
+            "description": "College football teams competing in regional tournaments."
+          },
+          {
+            "name": "Swimming",
+            "team_count": 1,
+            "description": "Swimming club with regular training sessions and competitions."
+          }
+        ]
+      },
+      {
+        "_id": 6,
+        "college_name": "Tech Institute",
+        "college_image": "https://example.com/images/college6.jpg",
+        "college_rating": 4.3,
+        "admission_date": "2023-09-05",
+        "research_count": 150,
+        "researchHistory": ["2019: Established Research Center", "2023: Collaborated with NASA"],
+        
+        "event": [
+          {
+            "name": "Annual College Fest",
+            "date": "2023-08-15",
+            "location": "College Campus",
+            "description": "A grand celebration with music, dance, and various competitions."
+          },
+          {
+            "name": "Guest Lecture Series",
+            "date": "2023-09-10",
+            "location": "Auditorium",
+            "description": "Renowned speakers from various fields will deliver inspiring talks."
+          }
+        ],
+        "research_works": [
+          {
+            "title": "Advancements in Renewable Energy",
+            "authors": ["John Smith", "Jane Doe"],
+            "publication_date": "2023-05-01",
+            "abstract": "This research explores the latest innovations in renewable energy sources."
+          },
+          {
+            "title": "The Impact of AI in Healthcare",
+            "authors": ["Michael Johnson", "Emily Brown"],
+            "publication_date": "2023-07-05",
+            "abstract": "An in-depth analysis of AI applications in the healthcare industry."
+          }
+        ],
+        "sports_categories": [
+          {
+            "name": "Football",
+            "team_count": 2,
+            "description": "Football teams for both men and women."
+          },
+          {
+            "name": "Basketball",
+            "team_count": 1,
+            "description": "Basketball team with regular inter-college competitions."
+          },
+          {
+            "name": "Athletics",
+            "team_count": 1,
+            "description": "Track and field events open for all students."
+          }
+        ]
+      }
+      
+]
+  
