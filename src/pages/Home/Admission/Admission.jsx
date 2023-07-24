@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { AuthContext } from '../../../Providers/AuthProviders';
 
 const Admission = () => {
+    const {user} = useContext(AuthContext)
     const [datas, setData] = useState([])
 
     useEffect(() => {
-        fetch("https://book-college-services-server-site-mdsahjalalrahim-gmailcom.vercel.app/college").then(res => res.json()).then(data => setData(data))
+        fetch("https://book-college-services-server-site-mdsahjalalrahim-gmailcom.vercel.app/college")
+        .then(res => res.json()).then(data => setData(data))
     }, [])
 
+    console.log(user)
     const handleSubmit = event => {
         event.preventDefault();
         const from = event.target;
@@ -19,6 +23,21 @@ const Admission = () => {
         const address = from.address.value;
         const Image = from.Image.value;
         console.log(CandidateName, Subject, Email, Phone, address, Image)
+        const data = {collegeData:datas,CandidateName, Subject, Email, Phone, address, Image, email:user.email}
+
+        fetch('http://localhost:5000/admission', {
+            method: "POST",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(res => res.json())
+            .then(data => {
+                if (data) {
+                   alert('done')
+                }
+            })
     }
 
     return (
@@ -27,9 +46,9 @@ const Admission = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-16 mb-[23%]'>
 
                 {
-                    datas.map((data , index)=> <div key={data._id} className='mx-auto'>
+                    datas?.map((data , index)=> <div key={data._id} className='mx-auto'>
                         <span className='text-3xl pr-3'>{index}.</span>
-                        <label htmlFor="my_modal_6" className='link link-primary text-3xl border p-2 hover:bg-slate-600 hover:text-white'>{data.college_Name}</label>
+                        <label htmlFor="my_modal_6" className='link link-primary text-3xl border p-2 hover:bg-slate-600 hover:text-white'>{data.college_name}</label>
                     </div>)
                 }
             </div>
@@ -49,7 +68,7 @@ const Admission = () => {
                         </div>
                         <div>
                             <span>Email</span>
-                            <input className='mt-2 bg-black text-white py-2 px-3 rounded-lg' placeholder='Email' name='Email' type="email" required />
+                            <input className='mt-2 bg-black text-white py-2 px-3 rounded-lg' defaultValue={user?.email} placeholder='Email' name='Email' type="email" required />
                         </div>
                         <div>
                             <span>Phone</span>
@@ -68,14 +87,14 @@ const Admission = () => {
                             <input className='mt-2 bg-black text-white py-2 px-3 rounded-lg' placeholder=' date of birth' type="text" required />
                         </div>
                         <div className="modal-action">
-                            <label htmlFor="my_modal_6" className="btn">
+                            <label className="btn">
                                 <input type="submit" value="submit" />
                             </label>
                         </div>
                     </form>
-                    {/* <div className="modal-action">
+                    <div className="modal-action">
                         <label htmlFor="my_modal_6" className="btn">Close</label>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </>

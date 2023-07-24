@@ -38,7 +38,7 @@ const Header = () => {
             </div>
             <div className="">
                 {/* <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" /> */}
-                <img className="w-8 h-8 rounded-full" src={user?.photoURL} alt="" />
+                <Link to="/Profile" className="text-2xl font-medium">{user?.displayName}</Link>
             </div>
         </div>
 

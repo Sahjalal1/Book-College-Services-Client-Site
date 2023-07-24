@@ -11,25 +11,25 @@ const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true)
 
     const createUser = (email, password) =>{
-        setLoading(true);
+        setLoading(false);
         return createUserWithEmailAndPassword(auth, email, password);  
       
     }
 
     const signIn = (email, password) =>{
-        setLoading(true);
+        setLoading(false);
         return signInWithEmailAndPassword(auth, email, password)
     }
 
     const logOut = () => {
-        setLoading(true)
+        setLoading(false)
         return signOut(auth);
     }
 
     
     
     const updateUserData = (user, name, photo) =>{
-        setLoading(true)
+        setLoading(false)
         console.log(user, name, photo)
         updateProfile(user, {
             displayName: name,

@@ -8,6 +8,7 @@ import MyCollege from "../pages/Home/myCollege/MyCollege";
 import CartDetails from "../pages/Home/CartDetails/CartDetails";
 import Register from "../pages/Home/Registration/Register";
 import Login from "../pages/Home/Login/Login";
+import Profile from "../pages/Home/Profile/Profile";
 
 
 
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
             {
                 path: "Login",
                 element: <Login></Login>
+            },
+            {
+                path: "Profile",
+                element: <Profile></Profile>
             }
 
         ]
